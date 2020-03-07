@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/* FONTS */
+@font-face {
+	font-family: 'gideon_plexusregular';
+    src: url('../assets/fonts/gideon-plexus/webfontkit/gideon_plexus-webfont.woff2') format('woff2'),
+         url('../assets/fonts/gideon-plexus/webfontkit/gideon_plexus-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+}
+
+
+.jumbotron {
+	background-image: url("../assets/pics/texture.jpg");
+}
+
+.container {
+	background-color: #000;
+}
+
+header h3, header h5 {
+	max-width: 46rem;
+	min-height: 5rem;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid rgba(175,113,85,1.0) thick;
+	background-color:rgba(175,113,85,.70);
+	font-family: 'gideon_plexusregular';
+	font-size: 3rem;
+}
+
+header h5 {
+	min-width: 15rem;
+	font-size: 2rem;
+}
+
+main .container .col {
+	min-height: 20rem;
+	min-width: 20rem;
+}
+
+.container .r1c1 {
+	background-image:url("../assets/pics/angkorwat.jpg");
+	background-size: cover;
+}
+
+.container .r1c2 {
+	background-image:url("../assets/pics/Machu-Picchu.jpg");
+	background-size: cover;
+}
+
+.container .r1c3 {
+	background-image:url("../assets/pics/Pyramid.jpg");
+	background-size: cover;
+}
+
+.container .r2c1 {
+	background-image:url("../assets/pics/Colosseum.jpg");
+	background-size: cover;
+}
+
+.container .r2c2 {
+	background-image:url("../assets/pics/easter_island.jpg");
+	background-size: cover;
+}
+
+.container .r2c3 {
+	background-image:url("../assets/pics/Great_Wall_of_China.jpg");
+	background-size: cover;
+}
+
+.container .r3c1 {
+	background-image:url("../assets/pics/Parthenon.jpg");
+	background-size: cover;
+}
+
+.container .r3c2 {
+	background-image:url("../assets/pics/Stonehenge.jpg");
+	background-size: cover;
+}
+
+.container .r3c3 {
+	background-image:url("../assets/pics/Taj_Mahal.jpg");
+	background-size: cover;
+}
+
+nav .active {
+	border-bottom: solid medium rgba(175,113,85,1.00);
+	padding-bottom:0.25rem;
+}
+
+nav a:hover {
+	text-decoration: none;
+	border-top: solid medium rgba(29,137,201,1.00);
+	padding-top:0.10rem;
+}
+
+#home .col-lg-4 .card > .card-header {
+	background-color:rgba(29,137,201,1.00);
+	color: #fff;
+}
+
+#home .col-lg-4 .card > .card-header span {
+	font-size: 0.8rem;
+}
+
+#news form label {
+	width: 8rem;
+}
+#news form div, #contact form div {
+	margin: 1rem;
+}
+
+#contact .formwrap {
+	max-width: 40rem;
+}
+
+footer {
+	height: 5rem;
+	font-size: 0.7rem;
+}
+

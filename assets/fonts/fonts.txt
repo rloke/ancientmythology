@@ -1,0 +1,31 @@
+Usage:
+
+Site Name/Logo:
+gideon_plexusregular using @Font Face
+
+Body Copy:
+Roboto Slab', serif
+
+_____________________________________________________________________________________
+Source:
+
+
+@Font Face:
+Font generator at https://www.fontsquirrel.com
+
+
+Google Fonts:
+https://fonts.google.com
+
+Roboto & Roboto Slab
+
+<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap" rel="stylesheet">
+
+CSS:
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+
+
+
+
